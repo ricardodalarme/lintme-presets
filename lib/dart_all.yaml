@@ -1,4 +1,4 @@
-lintme:
+dart_code_metrics:
   rules:
     - arguments-ordering
     - avoid-banned-imports

@@ -1,4 +1,4 @@
-lintme:
+dart_code_metrics:
   rules:
     - always-remove-listener
     - avoid-border-all

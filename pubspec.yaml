@@ -1,7 +1,7 @@
-name: lintme_presets
-version: 1.0.1
-description: Predefined presets for Lintme.
-repository: https://github.com/ricardodalarme/lintme-presets
+name: dart_code_metrics_presets
+version: 1.0.0
+description: Predefined presets for Dart Code Metrics.
+repository: https://github.com/CQLabs/dart-code-metrics-presets
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=2.17.0 <3.0.0"

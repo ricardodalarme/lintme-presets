@@ -1,4 +1,4 @@
-lintme:
+dart_code_metrics:
   extends:
-    - package:lintme_presets/dart_all.yaml
-    - package:lintme_presets/flutter_all.yaml
+    - package:dart_code_metrics/presets/dart_all.yaml
+    - package:dart_code_metrics/presets/flutter_all.yaml

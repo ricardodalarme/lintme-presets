@@ -1,11 +1,12 @@
-[![Pub Version](https://img.shields.io/pub/v/lintme_presets?logo=dart&logoColor=white)](https://pub.dev/packages/lintme_presets/)
-[![License](https://img.shields.io/github/license/ricardodalarme/lintme-presets)](https://github.com/ricardodalarme/lintme-presets/blob/main/LICENSE)
+[![Pub Version](https://img.shields.io/pub/v/dart_code_metrics?logo=dart&logoColor=white)](https://pub.dev/packages/dart_code_metrics/)
+[![License](https://img.shields.io/github/license/CQLabs/dart-code-metrics-presets)](https://github.com/CQLabs/dart-code-metrics-presets/blob/main/LICENSE)
+[![package publisher](https://img.shields.io/pub/publisher/dart_code_metrics.svg)](https://pub.dev/packages/dart_code_metrics/publisher)
 
-# Lintme Presets
+# Dart Code Metrics presets
 
-Lintme is a static analysis tool that helps you analyse and improve your code quality. You can find all available lint rules [here](https://lintme.dev/docs/rules).
+Dart Code Metrics is a static analysis tool that helps you analyse and improve your code quality. You can find all available lint rules [here](https://dartcodemetrics.dev/docs/rules).
 
-This repository contains a list of predefined presets for Lintme:
+This repository contains a list of predefined presets for DCM:
 
 - **All:** contains all available lint rules for Dart and Flutter.
 - **Dart:** contains all lint rules applicable to any Dart app.
@@ -18,21 +19,21 @@ Take these steps to enable a preset:
 1. Install this package as a dev dependency:
 
    ```terminal
-   dart pub add --dev lintme_presets
+   dart pub add --dev dart_code_metrics_presets
    ```
 
    or:
 
    ```terminal
-   flutter pub add --dev lintme_presets
+   flutter pub add --dev dart_code_metrics_presets
    ```
 
-2. For Lintme configuration add the `extents` entry:
+2. For DCM configuration add the `extents` entry:
 
    ```yaml
-   lintme:
-     extends:
-       - package:lintme_presets/all.yaml
+   dart_code_metrics:
+    extends:
+      - package:dart_code_metrics_presets/all.yaml
    ```
 
 ## Disabling or reconfiguring a rule from the preset
@@ -40,9 +41,9 @@ Take these steps to enable a preset:
 To disable a rule, simply set its value to false:
 
 ```yaml
-lintme:
+dart_code_metrics:
   extends:
-    - package:lintme_presets/all.yaml
+    - package:dart_code_metrics_presets/all.yaml
   rules:
     - avoid-banned-imports: false
 ```
@@ -50,9 +51,9 @@ lintme:
 To reconfigure a rule, that is included into a preset:
 
 ```yaml
-lintme:
+dart_code_metrics:
   extends:
-    - package:lintme_presets/all.yaml
+    - package:dart_code_metrics_presets/all.yaml
   rules:
     - arguments-ordering:
         child-last: true
@@ -60,4 +61,4 @@ lintme:
 
 ## Defining a custom preset
 
-Any other preset can be passed to the `extends` entry. To create a custom preset create a `yaml` file with the same structure as for regular [Lintme configuration](https://lintme.dev/docs/getting-started/configuration).
+Any other preset can be passed to the `extends` entry. To create a custom preset create a `yaml` file with the same structure as for regular [DCM configuration](https://dartcodemetrics.dev/docs/getting-started/configuration).
