@@ -1,0 +1,7 @@
+name: lintme_presets
+version: 1.0.1
+description: Predefined presets for Lintme.
+repository: https://github.com/ricardodalarme/lintme-presets
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
