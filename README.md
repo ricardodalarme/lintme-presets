@@ -1,6 +1,5 @@
 [![Pub Version](https://img.shields.io/pub/v/lintme_presets?logo=dart&logoColor=white)](https://pub.dev/packages/lintme_presets/)
-[![License](https://img.shields.io/github/license/CQLabs/lintme-presets)](https://github.com/CQLabs/lintme-presets/blob/main/LICENSE)
-[![package publisher](https://img.shields.io/pub/publisher/lintme.svg)](https://pub.dev/packages/lintme/publisher)
+[![License](https://img.shields.io/github/license/ricardodalarme/lintme-presets)](https://github.com/ricardodalarme/lintme-presets/blob/main/LICENSE)
 
 # Lintme Presets
 
